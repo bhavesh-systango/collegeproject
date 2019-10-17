@@ -1,0 +1,116 @@
+
+.menu ul{
+    list-style-type:none;  
+    padding: 10px; 
+} 
+.menu ul>li{
+    background-color:rgb(126, 194, 226);
+    width: 150px;
+    height: 40px;
+    border: 1px solid white;
+    float: left;
+    padding: 2px;
+    text-align: center;
+    color:black;
+    font-size: 20px;
+    position: relative;
+    border-radius:15px; 
+    margin-left:30px ;
+    margin-bottom: 0px;
+    
+}
+.menu ul li:hover{
+    background-color:rgb(3, 105, 201); 
+}
+.menu ul li a:hover{
+    color: aliceblue; 
+}
+.menu ul ul {
+    display:none;
+    position: relative;
+}
+.menu ul li:hover>ul
+{
+    display:block;
+    margin-left: -40px;
+}
+.menu h1 a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+}
+.menu h1  a{
+    text-decoration: none;
+
+}
+.menu{
+    display:flex;
+    background-image:url("backimage.jpg");
+    border-bottom:inset red 3px;
+    max-width: 100%;
+    background-repeat:no-repeat;
+    background-size:cover;  
+    height: 70px;
+}
+.menu h1 {
+    width:450px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(238, 6, 6); 
+    font: bolder;
+}
+main .head{
+    text-align: center;
+}
+main,section{
+    background-color: rgb(207, 238, 241);
+    margin: 0px;
+}
+h3{
+    color: brown;
+    text-align: center;
+}
+#city {
+    display: grid;
+    grid-template-rows:auto;
+    grid-template-columns: 45% 45%;
+    grid-template-areas:"u1 u2";
+}
+#u1{
+    grid-area: u1;
+    margin:0px 0px 0px 250px;
+    padding-left:200px; 
+}
+#u2{
+    grid-area: u2;
+    margin:0px 0px 0px 150px;
+  }
+table li{
+    background-color:rgb(126, 194, 226);
+    border: solid white;
+    border-radius: 10px;
+    padding:0px 10px 0px 10px;
+    margin-bottom:3px; 
+}
+.para{
+    margin:15px 50px 0 50px;
+}
+div.card:hover{
+    box-shadow:5px 10px 10px gray;
+}
+.container{
+    border: solid rgba(128, 128, 128, 0.274);
+}
+h4{
+    text-align: center;
+    color: brown;
+}
+footer{
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background: rgb(126, 194, 226);
+    padding: 20px;
+    border-top: solid rgb(45, 61, 66);
+}

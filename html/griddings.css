@@ -1,0 +1,20 @@
+.grid
+{
+	display: grid;
+	grid-template-columns: 100px 1fr;
+	grid-gap: 5px;
+	align-items: center;
+	margin: auto;
+	width: 540px;
+}
+
+.grid img
+{
+	border: 1px solid black;
+    
+}
+.grid img:nth child(5)
+{
+	grid-column: span 3;
+	grid-row: span 2;
+}

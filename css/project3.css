@@ -1,0 +1,117 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+.bha
+{
+	background-color: gray;
+	border-bottom: 5px solid red;
+	color:white;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+}
+.clear{
+	clear: both;
+}
+.header h1
+{
+	float:left;
+	margin-left: 75px;
+}
+.list 
+{
+	float: right;
+    margin-top: 10px;
+    margin-right: 100px;
+    padding:10px;
+}
+.list ul li
+{
+	display: inline;
+	border:1px solid black;
+	padding:10px;
+}
+.grid
+{
+	background-image: url(img9.jpg);
+    height:400px;
+    color:white;
+    text-align: center;
+}
+.grid h1, .grid p{
+	transform: translateY(136px);
+}
+.float
+{
+	background-color: gray;
+	height: 75px;
+	
+}
+.left h3
+{
+	float: left;
+	margin-top: 25px;
+	margin-left: 75px;
+}
+.right
+{
+	float:right;
+    margin-top: 25px;
+    margin-right:75px;
+}
+.gridding
+{
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	 height:300px;
+	 margin-top: 50px;
+}
+.clang
+{
+	grid-row-start:1;
+	grid-row-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+.cplang
+{
+	grid-row-start:1;
+	grid-row-end: 2;
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+.java
+{
+	grid-row-start:1;
+	grid-row-end: 2;
+	grid-column-start: 3;
+	grid-column-end: 4;
+}
+.javas
+{
+	grid-row-start:1;
+	grid-row-end: 2;
+	grid-column-start: 4;
+	grid-column-end: 5;
+}
+.col i
+{
+	transform:translate(105px,10px);
+	font-size:50px;
+}
+.col h4,.col p
+{
+	text-align: center;
+	margin-top:20px;
+}
+footer
+{
+	text-align: center;
+	font-size: 30px;
+	font-weight:bold;
+	background-color: gray;
+}

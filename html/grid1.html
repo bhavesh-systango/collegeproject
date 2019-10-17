@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grid</title>
+	<style type="text/css">
+		#grid{
+			display: grid;
+			grid-template-areas:
+			"header header"
+			"section main"; 
+			grid-template-rows:50px 300px;
+			grid-template-columns: 100px 400px;
+			transform: translate(420px, 70px);
+			
+			
+		}
+		#header{
+			grid-area: header;
+			background-color: red;
+		}
+		#section{
+			grid-area: section;
+			background-color: blue;
+		}
+		#main
+		{
+			grid-area: main;
+			background-color: green;
+		}
+	</style>
+</head>
+<body>
+	<div id="grid">
+		<div id="header">1</div>
+		<div id="section">2</div>
+		<div id="main">3</div>
+	</div>
+</body>
+</html>

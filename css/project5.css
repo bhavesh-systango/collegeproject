@@ -1,0 +1,44 @@
+.menu{
+	padding-left: 30px !important;
+}
+.top-menu{
+	margin-left: 520px !important;
+}
+.top-menu button{
+	margin-left: 150px;
+}
+.font{
+	font-size: 35px !important;
+}
+.banner{
+	background-image: url('img11.jpg');
+	width: 100%;
+	height: 600px;
+	background-attachment: fixed;
+}
+.banner h1{
+	padding-top: 200px; 
+}
+.form{
+	margin-left: 500px;
+}
+.second{
+	background-image: url(img20.jpg);
+	height: 400px;
+}
+.second h1
+{
+	padding-top: 100px;
+	padding-right: 50px;
+}
+.full
+{
+	background-image: url(img22.jpg);
+	height:400px;
+	
+}
+.second button
+{
+	margin-right: 350px;
+	margin-top: 20px;
+}

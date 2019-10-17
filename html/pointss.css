@@ -1,0 +1,38 @@
+.tabcontent
+{
+	border-collapse: collapse;
+	border: 2px solid black;
+	margin: auto;
+	font-size: 15px;
+	min-width:1000px;
+	
+
+}
+.tabcontent thead tr
+{
+	background-color: red;
+	text-align: left;
+	color:white;
+	font-weight: bold;
+
+}
+#main
+{
+	background-color: pink;
+}
+.tabcontent th,.tabcontent td
+{
+	padding: 15px 15px;
+}
+.tabcontent tr:hover
+{
+	background-color:green;
+}
+.tabcontent tbody tr
+{
+	border-bottom: 1px solid black;
+}
+/*.tabcontent tbody tr:nth-child(even)
+{
+	background-color: lightgray;
+}*/

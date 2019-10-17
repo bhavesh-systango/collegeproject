@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<script type="text/javascript"src="formmm.js"></script>
+	 <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="form">
+		<form>
+			<table>
+				<tr><h1>the registration form</h1></tr>
+				<tr>
+					<td><label>User Id</label></td>
+					<td><input type="text" id="uid" onkeyup="cId();"><br>
+						<p id="iderror"></p></td>
+				</tr>
+				<tr>
+					<td>Name</td>
+					<td><input type="text" id="uname" onkeyup="cName();"><br>
+						<p id="nameerror"></p></td>
+				</tr>
+				<tr>
+					<td>Address</td>
+					<td><input type="text" id="uAdd" onkeyup="cAdd();"><br>
+						<p id="addresserror"></p></td>
+				</tr>
+				<tr>
+					<td>Country</td>
+					<td>
+						<select id="uCon" onclick="cCon();">
+							<option selected="true" value="">--Select--</option>
+							<option value="aus">Australia</option>
+							<option value="ind">India</option>
+							<option value="eng">England</option>
+						</select><br>
+						<p id="countryerror"></p>
+					</td>
+				</tr>
+				<tr>
+					<td>Zip Code</td>
+					<td><input type="text" id="zip" onkeyup="cZip();"name=""><br>
+						<p id="ziperror"></p></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input type="email" id="email" onkeyup="cEmail" name=""><br>
+						<p id="emailerror"></p></td>
+				</tr>
+				<tr>
+					<td>Sex</td>
+					<td><input type="radio" value="male" id="male" name="gender">Male
+					     <input type="radio" id="female" value="female" name="gender">Female<br>
+						<p id="gendererror"></p></td>
+				</tr>
+				<tr>
+					<td>About</td>
+					<td><textarea></textarea></td>
+				</tr>
+				<tr>
+				<td colspan="2"><a href="project7.html"class="btn btn-primary"><input type="submit" name="Submit" onclick="validate();"></a></td>
+					
+				</tr>
+			</table>
+
+		</form>
+	</div>
+
+</body>
+</html>

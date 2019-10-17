@@ -1,0 +1,51 @@
+p.html
+{
+
+background-color: red;
+
+}
+p.css
+{
+background-color: blue;
+
+}
+p.java
+{
+background-color: lightgreen;
+
+}
+p.type
+{
+background-color: yellow;
+
+}
+p.angular
+{
+color:white;
+font-weight:bold;
+padding-top: 350px;
+padding-left: 75px;
+font-size: 20px;
+width: 100px;
+height:800px;
+display: inline-block;
+//text-align: center;
+}
+body
+{
+	background-color: black;
+}
+.javs
+{
+	color:white;
+	padding-top: 300px;
+     text-align: center;
+font-weight:bold;
+font-size: 20px;
+
+	
+	width: 275px;
+height:1000px;
+display: inline-block;
+
+}

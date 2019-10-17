@@ -1,0 +1,24 @@
+h1{
+	color:white;
+	border:4px solid #62ec62;
+	text-align: center;
+	font-size: 60px;
+	font-style: bold;
+background-image: url('bg.jpg');
+}
+p.main
+{
+	color: white;
+	background-color: #62ec62;
+
+}
+p.trade
+{
+	color: white;
+	background-color: #62ec62;
+}
+h3{
+	font-size: 50px;
+	text-align: center;
+	font-weight: bold;
+}

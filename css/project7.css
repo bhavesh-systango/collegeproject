@@ -1,0 +1,17 @@
+.menu
+{
+	background-color: black !important;
+	height: 75px;
+	color: white;
+	font-size: 24px;
+}
+.foot img
+{
+height:500px;
+width:300px;
+}
+footer
+{
+	background-color: black;
+	color: white
+}

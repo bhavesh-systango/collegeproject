@@ -1,0 +1,10 @@
+.foot
+{
+	margin-left: 300px;
+    padding:20px;
+}
+.foot a
+{
+    border: 1px solid black;
+    border-radius: 20px;
+}
